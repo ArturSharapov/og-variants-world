@@ -11,7 +11,7 @@ const fonts = await Promise.all(
 )
 const size = 1200
 const ratio = size / 1024
-const COLORS = { ur: '#2b99ea', pending: '#cdbf27', accepted: '#61ad14', declined: '#cd2740' }
+const COLORS = { UNDER_REVIEW: '#2b99ea', PENDING_REPLY: '#cdbf27', ACCEPTED: '#61ad14', DECLINED: '#cd2740' }
 
 Deno.serve((request: Request) => {
   try {
