@@ -1,3 +1,4 @@
+/** @jsxImportSource https://esm.sh/react */
 import { getQueries, InvalidParamsError } from 'https://deno.land/x/requery@0.1.0/mod.ts'
 import React from 'https://esm.sh/react@18.2.0'
 import { ImageResponse } from 'https://deno.land/x/og_edge@0.0.6/mod.ts'
